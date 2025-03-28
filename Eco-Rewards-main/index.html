@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoRewards - Nature Conservation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <i class="fas fa-leaf"></i>
+                <span>EcoRewards</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">PARTNERSHIP</a></li>
+                    <li><a href="#">PROGRAM</a></li>
+                </ul>
+            </nav>
+            <div class="header-right">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="hero-content">
+                    <h3>CONSERVE AND PROTECT NATURE</h3>
+                    <h1>ECO<span>SYSTEM</span></h1>
+                    <p>Join our community of environmental champions and earn rewards for your sustainable actions. Together, we can make a difference for our planet's future.</p>
+                    <div class="cta-buttons">
+                        <button class="primary-btn">Join Now</button>
+                        <button class="secondary-btn">Learn More</button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="/api/placeholder/600/480" alt="Nature conservation">
+                    <div class="hero-badge">
+                        <span>PROTECT</span>
+                        <span>CONSERVE</span>
+                        <span>SUSTAIN</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="rewards">
+                <h2>REWARDS PROGRAM</h2>
+                <div class="rewards-container">
+                    <div class="reward-card">
+                        <div class="reward-icon">
+                            <i class="fas fa-recycle"></i>
+                        </div>
+                        <h3>Recycling</h3>
+                        <p>Earn points for properly recycling different materials. Track your impact and redeem rewards.</p>
+                        <span class="points">+10 points</span>
+                    </div>
+                    <div class="reward-card">
+                        <div class="reward-icon">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <h3>Tree Planting</h3>
+                        <p>Participate in local tree planting events or donate to reforestation efforts.</p>
+                        <span class="points">+50 points</span>
+                    </div>
+                    <div class="reward-card">
+                        <div class="reward-icon">
+                            <i class="fas fa-solar-panel"></i>
+                        </div>
+                        <h3>Clean Energy</h3>
+                        <p>Switch to renewable energy sources or participate in community solar projects.</p>
+                        <span class="points">+30 points</span>
+                    </div>
+                    <div class="reward-card">
+                        <div class="reward-icon">
+                            <i class="fas fa-water"></i>
+                        </div>
+                        <h3>Water Conservation</h3>
+                        <p>Reduce water usage and participate in local water cleanup initiatives.</p>
+                        <span class="points">+20 points</span>
+                    </div>
+                </div>
+                <div class="rewards-progress">
+                    <div class="progress-info">
+                        <h3>Your EcoImpact</h3>
+                        <span id="points-display">0 points</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" id="progress-bar"></div>
+                    </div>
+                    <div class="progress-levels">
+                        <div class="level">
+                            <span class="level-dot"></span>
+                            <span class="level-name">Beginner</span>
+                        </div>
+                        <div class="level">
+                            <span class="level-dot"></span>
+                            <span class="level-name">Explorer</span>
+                        </div>
+                        <div class="level">
+                            <span class="level-dot"></span>
+                            <span class="level-name">Guardian</span>
+                        </div>
+                        <div class="level">
+                            <span class="level-dot"></span>
+                            <span class="level-name">Champion</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="primary-btn claim-btn">Claim Rewards</button>
+            </section>
+
+            <section class="impact">
+                <h2>MAKE AN IMPACT</h2>
+                <div class="impact-stats">
+                    <div class="stat">
+                        <span class="stat-number" id="trees-planted">0</span>
+                        <span class="stat-label">Trees Planted</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" id="tons-recycled">0</span>
+                        <span class="stat-label">Tons Recycled</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" id="participants">0</span>
+                        <span class="stat-label">Active Participants</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <i class="fas fa-leaf"></i>
+                    <span>EcoRewards</span>
+                </div>
+                <div class="footer-nav">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Programs</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Stay Updated</h4>
+                    <form>
+                        <input type="email" placeholder="Your email address">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect With Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 EcoRewards. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Sustainability Statement</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
